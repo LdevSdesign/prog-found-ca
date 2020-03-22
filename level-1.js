@@ -79,10 +79,10 @@ someNumbers(33, 20);
 
 var myNumbers = [];
 
-function addNumbers(age) {
+function addToArray(age) {
   myNumbers.push(age);
 }
 
-addNumbers(33);
+addToArray(33);
 
 console.log(myNumbers);
